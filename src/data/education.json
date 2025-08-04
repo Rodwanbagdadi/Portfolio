@@ -1,37 +1,30 @@
 {
   "education": [
     {
-      "name": "Digipen Institute of Technology Singapore",
-      "href": "https://www.digipen.edu.sg",
-      "title": "BS in Computer Science in Real-Time Interactive Simulation",
-      "logo": "/digipen.png",
-      "start": "Sep 2019",
-      "end": "Apr 2023",
+      "name": "German Jordanian University (GJU)",
+      "href": "https://www.gju.edu.jo",
+      "title": "Bachelor's in Mechatronics Engineering",
+      "logo": "/gju.png",
+      "start": "2018",
+      "end": "2025",
       "description": [
-        "Graduated with a Minor in Mathematics",
-        "President of Digipen Student Management Committee for freshman year",
-        "3-time recipient of the Dean's Honor List"
-      ],
-      "links": [
-        {
-          "name": "Final Year Project",
-          "href": "https://games.digipen.edu/games/rapid-ride-fight",
-          "icon": "globe"
-        },
-        {
-          "name": "2nd Year Project",
-          "href": "https://games.digipen.edu/games/glowing-under",
-          "icon": "globe"
-        }
+        "Specializing in the integration of mechanical, electrical, and computer engineering",
+        "Focus on automation, robotics, and intelligent systems",
+        "Thesis work on AI-powered control systems"
       ]
     },
     {
-      "name": "Singapore Polytechnic",
-      "href": "https://www.sp.edu.sg",
-      "title": "Diploma in Games Design and Development",
-      "logo": "/sp.png",
-      "start": "Apr 2014",
-      "end": "May 2017"
+      "name": "Bochum University of Applied Sciences",
+      "href": "https://www.hochschule-bochum.de",
+      "title": "Exchange Semester in Mechatronics",
+      "logo": "/bochum.png",
+      "start": "2023",
+      "end": "2024",
+      "description": [
+        "International exchange program focusing on advanced mechatronics",
+        "Gained experience in German engineering methodologies",
+        "Collaborated on interdisciplinary engineering projects"
+      ]
     }
   ]
 }

@@ -1,128 +1,115 @@
 {
   "projects": [
     {
-      "name": "TT4D",
-      "description": "Generate winning combinations, view past results, and analyze lottery trends all in one place",
-      "image": "/tt4d.png",
+      "name": "Slack AI Assistant Bot",
+      "description": "AI-powered Slack bot with email drafting capabilities using OpenAI GPT-3.5 and LangChain framework.",
+      "image": "/slack-ai-bot.png",
       "tags": [
         "Python",
-        "FastAPI",
-        "Docker",
-        "Fly.io",
-        "NextJS",
-        "PostgreSQL",
-        "TailwindCSS",
-        "BS4"
+        "LangChain",
+        "OpenAI API",
+        "Slack SDK",
+        "Flask"
       ],
       "links": [
         {
-          "name": "Website",
-          "href": "https://huatnumbers.com",
-          "icon": "globe"
-        },
-        {
           "name": "Source",
-          "href": "https://github.com/tedawf/tt4d",
-          "icon": "github"
-        },
-        {
-          "name": "Source (UI)",
-          "href": "https://github.com/tedawf/tt4d-web",
+          "href": "https://github.com/Rodwanbagdadi/Slack_AI_Bot",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "Tradingview Telegram Alerts",
-      "description": "Real-time trading alerts with chart snapshots sent to Telegram, designed to keep traders informed and responsive to market changes",
-      "image": "/tv-tele-alerts.png",
+      "name": "LLM Chatbot Interface",
+      "description": "Intuitive chat interface powered by OpenAI GPT with persistent conversation history and real-time streaming.",
+      "image": "/llm-chatbot.png",
       "tags": [
         "Python",
-        "FastAPI",
-        "Docker",
-        "Fly.io",
-        "Selenium",
-        "Telegram Bot API"
+        "Streamlit",
+        "OpenAI API",
+        "Shelve"
       ],
       "links": [
         {
           "name": "Source",
-          "href": "https://github.com/tedawf/tradingview-telegram-alerts",
+          "href": "https://github.com/Rodwanbagdadi/LLM_Chatbot_Interface",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "NFTVue",
-      "description": "Non-Fungible Tokens (NFTs) Gallery Viewer website that allows users to connect their crypto wallets to view and verify their tokens",
-      "href": "https://nftvue.vercel.app",
-      "image": "/nftvue.png",
+      "name": "Twitter Sentiment Analysis",
+      "description": "Comprehensive sentiment analysis using TextBlob and machine learning with 76% accuracy on tweet classification.",
+      "image": "/twitter-sentiment.png",
       "tags": [
-        "NextJS",
-        "TailwindCSS",
-        "MetaMask",
-        "WalletConnect",
-        "Web3",
-        "NFTScan",
-        "HashKey DID"
+        "Python",
+        "NLTK",
+        "TextBlob",
+        "Scikit-learn",
+        "Matplotlib"
       ],
       "links": [
         {
-          "name": "Website",
-          "href": "https://nftvue.vercel.app",
-          "icon": "globe"
-        }
-      ]
-    },
-    {
-      "name": "Portfolio 2023 (Outdated)",
-      "description": "Simple markdown portfolio made with Astro 🚀",
-      "href": "https://tedawf-dot-com.netlify.app",
-      "image": "/old-portfolio.png",
-      "tags": ["Astro", "TailwindCSS", "Netlify", "SEO"],
-      "links": [
-        {
-          "name": "Website",
-          "href": "https://tedawf-dot-com.netlify.app",
-          "icon": "globe"
-        },
-        {
           "name": "Source",
-          "href": "https://github.com/tedawf/portfolio-2023",
+          "href": "https://github.com/Rodwanbagdadi/Twitter_sentiment_analysis",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "Rapid Ride Fight (Final Year)",
-      "description": "3D capture-the-flag, multiplayer boat fighting, with smart AI and water graphics",
-      "href": "https://games.digipen.edu/games/rapid-ride-fight",
-      "image": "/rrf.png",
-      "tags": ["C/C++", "OpenGL", "Custom Game Engine", "3D"],
+      "name": "Sales Insights Data Analysis",
+      "description": "Transform raw sales data into meaningful business insights with interactive dashboards.",
+      "image": "/sales-insights.png",
+      "tags": [
+        "Power BI",
+        "MySQL",
+        "DAX",
+        "Power Query",
+        "SQL"
+      ],
       "links": [
         {
-          "name": "Gameplay",
-          "href": "https://www.youtube.com/watch?v=bge3fiypg5U",
-          "icon": "youtube"
-        },
-        {
-          "name": "Trailer",
-          "href": "https://www.youtube.com/watch?v=PNAO-aI1Daw",
-          "icon": "youtube"
+          "name": "Source",
+          "href": "https://github.com/Rodwanbagdadi/Sales-Insights-Data-Analysis",
+          "icon": "github"
         }
       ]
     },
     {
-      "name": "Glowing Under (2nd Year)",
-      "description": "2D platformer with a focus on puzzle-solving, no-death exploration and storytelling",
-      "href": "https://games.digipen.edu/games/glowing-under",
-      "image": "/gu.png",
-      "tags": ["C/C++", "OpenGL", "Custom Game Engine", "2D"],
+      "name": "Fake News Detection",
+      "description": "XGBoost and TF-IDF vectorization system achieving 99.79% accuracy in detecting fake news.",
+      "image": "/fake-news-detection.png",
+      "tags": [
+        "Flask",
+        "HTML",
+        "Gradient Boosting",
+        "XGBoost",
+        "distilBERT"
+      ],
       "links": [
         {
-          "name": "Trailer",
-          "href": "https://www.youtube.com/watch?v=u6RYwBZlSfg",
-          "icon": "youtube"
+          "name": "Source",
+          "href": "https://github.com/Rodwanbagdadi/Flask_Grad_Project",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Diabetes Classifier",
+      "description": "SVM-based diabetes prediction model using 70,692 cases from comprehensive survey data.",
+      "image": "/diabetes-classifier.png",
+      "tags": [
+        "Python",
+        "SVM",
+        "KNN",
+        "Random Forests",
+        "Decision Trees"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/Rodwanbagdadi/Diabetes-Classifier",
+          "icon": "github"
         }
       ]
     }
