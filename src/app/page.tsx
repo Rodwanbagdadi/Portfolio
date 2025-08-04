@@ -1,10 +1,8 @@
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
-import Posts from "@/components/Posts";
 import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/Button";
-import { getPosts } from "@/lib/posts";
 import {
   ArrowDown,
   ArrowDownRight,
@@ -13,15 +11,11 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import path from "path";
 
-const blogDirectory = path.join(process.cwd(), "content");
 const TED_BIRTH_YEAR = 1997;
 const LIMIT = 2; // max show 2
 
 export default async function Home() {
-  const posts = await getPosts(blogDirectory, LIMIT);
-
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
@@ -94,19 +88,6 @@ export default async function Home() {
           />
         </div>
         <Projects limit={LIMIT} />
-      </section>
-
-      <section className="flex flex-col gap-8">
-        <div className="flex justify-between">
-          <h2 className="title text-3xl">recent posts</h2>
-          <LinkWithIcon
-            href="/blog"
-            position="right"
-            icon={<ArrowRightIcon className="size-5" />}
-            text="view more"
-          />
-        </div>
-        <Posts posts={posts} />
       </section>
     </article>
   );
